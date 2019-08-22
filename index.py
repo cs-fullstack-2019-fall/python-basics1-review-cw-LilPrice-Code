@@ -1,12 +1,12 @@
 # Problem 1:
 # Create a program that prints the user input until they enter 'q' to quit.
 
- # while 0 == 0:
- #    user = input("Enter Something: ")
- #    if user == "q":
- #        break
- #    else:
- #        print(user)
+ while 0 == 0: # this is not how to use a while loop
+    user = input("Enter Something: ")
+    if user == "q":
+        break
+    else:
+        print(user)
 
 # Problem 2:
 # Ask the user for their name.
@@ -34,18 +34,18 @@ while 0==0:
 # Else, print “ERROR”.
 
 
-# while 0 == 0:
-#     user = input("Enter 1, 2, 3,\n or 'q' to quit\n")
-#     if user == "q":
-#         break
-#     elif user == "1":
-#         print(1)
-#     elif user == "2":
-#         print(2)
-#     elif user == "3":
-#         print(3)
-#     else:
-#         print("ERROR")
+while 0 == 0: # this is not how to use a while loop
+    user = input("Enter 1, 2, 3,\n or 'q' to quit\n")
+    if user == "q":
+        break
+    elif user == "1":
+        print(1)
+    elif user == "2":
+        print(2)
+    elif user == "3":
+        print(3)
+    else:
+        print("ERROR")
 
 #
 # Problem 4:
@@ -53,11 +53,12 @@ while 0==0:
 # You should store all of their input and separate the input with a comma.
 # Once they enter 'q', print all of the comma separated words they entered.
 
-# total = "0"
-# while 0 == 0:
-#     user = input("Enter a word\n")
-#     if user != "q":
-#         total = total + ", "+user
-#     elif user == "q":
-#         print(total)
-#         break
+# for some reason this loop doesn't run
+total = "0"
+while 0 == 0: # this is not how to use a while loop
+    user = input("Enter a word\n")
+    if user != "q":
+        total = total + ", "+user
+    elif user == "q":
+        print(total)
+        break
